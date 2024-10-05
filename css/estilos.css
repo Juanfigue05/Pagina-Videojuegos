@@ -1,13 +1,30 @@
-nav li{
-    text-decoration: none;
+body h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
-nav a{
-    text-decoration: none;
+
+
+body{
+    font-size: 12pt;
+    background-image: url("../img/fondo_pantalla_lg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-ul li{
-    text-decoration: none;
+@media screen and (max-width: 599px){
+    body{
+        font-size: 12pt;
+        background-image: url("../img/fondo_pantalla.jpg");
+        background-repeat: repeat-y;
+        background-size:cover;
+    }
 }
-.nav-link{
-    margin: 0;
-    padding: 0;
+
+.boton{
+    background:linear-gradient(to bottom, #fff200 , #ff0000);
+    border: none;
+}
+.navegacion{
+    font-weight: bold;
+    background:linear-gradient(to bottom, #fff200 , #ff0000);
 }

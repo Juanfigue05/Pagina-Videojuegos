@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="En este sitio web podras ver lo juegos mas jugados, ademas de las collecciones y mejor valorados de la biblioteca de juego que hay, entre otros.">
     <title>VIDEO-JUEGOS</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navegacion navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand disabled" style="font-size: 2em;">&#x265b;</a>
+            <a class="navbar-brand disabled icono" style="font-size: 2em;">&#x265b;</a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -33,7 +33,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
@@ -51,8 +51,8 @@
     
     <div class="container-fluid " >
         <div class="row">
-            <div class="col-2 m-3 seccion1" >
-                <div class="text-bg-warning rounded">
+            <div class="col-2 m-3 seccion1 rounded d-none d-lg-block" >
+                <div class="border border-secondary rounded text-bg-primary ">
                     <ul class="navbar-nav p-4 seccion1 ">
                         <h3>Tiendas</h3>
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://store.steampowered.com/?l=spanish">Steam</a></li>
@@ -81,7 +81,7 @@
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.pearlabyss.com/en-US">Pearl Abyss</a></li>
                     </ul>
                 
-                    <ul class="navbar-nav p-3 seccion1">
+                    <ul class="navbar-nav p-4 seccion1">
                         <h3>Generos</h3>
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Accion</a></li>
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Aventura</a></li>
@@ -98,7 +98,7 @@
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">VR</a></li>
                     </ul>
                 
-                    <ul class="navbar-nav mb-5 p-3 rounded-bottom seccion1">
+                    <ul class="navbar-nav mb-5 p-4 rounded-bottom seccion1">
                         <h3>Plataformas</h3>
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">PC - Computador</a></li>
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">PlayStation</a></li>
@@ -107,78 +107,446 @@
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">Celular</a></li>
                         <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">Emuladores</a></li>
                         <br>
-                    </ul>
-                    
+                    </ul>  
                 </div>
             </div>
-            <div class="col-9">
-                <div class="row">
-                    <div class="col-12 text-center mb-5">
-                        <h2>HALO MASTER CHIEF COLLECTION</h2>
-                        <div class="card-group">
-                            <div class="card">
-                              <img class="img-fluid" src="img/halo-reach_1.webp" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">HALO REACH</h5>
-                                <p class="card-text">Halo Reach es un videojuego de disparos en primera persona desarrollado por Bungie y publicado por Microsoft Game Studios para la consola Xbox 360 y posteriormente retrocompatible con Xbox One. Es el sexto videojuego de la saga Halo, así como su tercer videojuego Publicado.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img class="img-fluid" src="img/Halo-2.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">HALO 2</h5>
-                                <p class="card-text">Halo 2 es un videojuego de disparos en primera persona desarrollado por Bungie Studios y lanzado para la consola Xbox en 2004. Es la segunda entrega en la franquicia de Halo y su trama continúa los sucesos relatados en Halo: Combat Evolved</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img class="img-fluid" src="img/halo-4.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">HALO 4</h5>
-                                <p class="card-text">Halo 4 es un videojuego de disparos en primera persona desarrollado por la filial 343 Industries y distribuido por Microsoft Studios para la videoconsola Xbox 360. Halo 4 es el primero de "la trilogía del reclamador", y el séptimo lanzamiento de la franquicia Halo.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                              </div>
-                            </div>
-                          </div>
+            <div class="col-12 d-lg-none d-md-block d-sm-block m-3 canva">
+                <button class="btn btn-primary boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Otras paginas</button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLeftLabel">MAS INFORMACION</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav p-4 seccion1 ">
+                            <h3>Tiendas</h3>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://store.steampowered.com/?l=spanish">Steam</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.epicgames.com/site/es-ES/home">Epic Games</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://store.ubisoft.com/ofertas/home?lang=es_CO">Ubisoft</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.ea.com/es-es">EA Sport</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.riotgames.com/es">Riot Games</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.blizzard.com/es-es/">Blizzard</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.rockstargames.com/es/">Rockstar Games</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://bethesda.net/es/dashboard">Bethesda</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.valvesoftware.com/es/">Valve</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.activision.com/es/home">Activision</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.square-enix-games.com/es_ES/home">Square Enix</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.konami.com/games/eu/es/">Konami</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.bandainamcoent.com">Bandai Namco</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.capcom.com">Capcom</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.sega.com/homepage">Sega</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://store.sony.com.co/?cid=sem-la-b-ss-010122-co-prospecting-branded-purebrand-paginasony&gad_source=1&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcCuLd0RFBCRmGBUAxf2EtqLcwDNwHTlE6EFMHFxA4HyNGMVx4TtE5MaAlFjEALw_wcB">Sony</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.microsoft.com/es-co">Microsoft</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.nintendo.com/es-es/?srsltid=AfmBOopTnQnTZQYD4i2Ii4duU8UhQB49uifc3q9aDeUq8wQYpH54b2nF">Nintendo</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.tencent.com">Tencent</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.nexon.com/main/es">Nexon</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.netmarble.com">Netmarble</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://us.ncsoft.com/en-us">NCSoft</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.playkakaogames.com/#eversoul">Kakao Games</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="https://www.pearlabyss.com/en-US">Pearl Abyss</a></li>
+                        </ul>
+                    
+                        <ul class="navbar-nav p-4 seccion1">
+                            <h3>Generos</h3>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Accion</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Aventura</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Carreras</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Deportes</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Estrategia</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Indie</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Multijugador</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Plataformas</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Rol</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Simulacion</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Survival</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">Terror</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="generos.html">VR</a></li>
+                        </ul>
+                    
+                        <ul class="navbar-nav mb-5 p-4 rounded-bottom seccion1">
+                            <h3>Plataformas</h3>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">PC - Computador</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">PlayStation</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">Xbox X-S</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">Nintendo</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">Celular</a></li>
+                            <li class="nav-item"><a class="nav-link" style="margin: 0; padding: 0;" href="plataformas.html">Emuladores</a></li>
+                            <br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-9 col-md-12 col-sm-12 d-sm-block d-md-block d-lg-none">
+                <div class="row">
+                    <div class="col-12 mb-5 ">
+                        <h2>HALO MASTER CHIEF COLLECTION</h2>
+                        <div class="card-group ">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/halo-reach_1.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">HALO REACH</h5>
+                                            <p class="card-text">Halo Reach es un videojuego de disparos en primera persona desarrollado por Bungie y publicado por Microsoft Game Studios para la consola Xbox 360 y posteriormente retrocompatible con Xbox One. Es el sexto videojuego de la saga Halo.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/Halo-2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">HALO 2</h5>
+                                            <p class="card-text">Halo 2 es un videojuego de disparos en primera persona desarrollado por Bungie Studios y lanzado para la consola Xbox en 2004. Es la segunda entrega en la franquicia de Halo y su trama continúa los sucesos relatados en Halo: Combat Evolved</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3 ">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/halo-4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">HALO 4</h5>
+                                            <p class="card-text">Halo 4 es un videojuego de disparos en primera persona desarrollado por la filial 343 Industries y distribuido por Microsoft Studios para la videoconsola Xbox 360. Halo 4 es el primero de "la trilogía del reclamador", y el séptimo lanzamiento de la franquicia Halo.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>FARCRY COLLECTION</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/FARCRY3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">FARCRY 3</h5>
+                                            <p class="card-text">Far Cry 3 es un videojuego de disparos en primera persona y acción, creado por Ubisoft Montreal y publicado por Ubisoft. Fue lanzado oficialmente el 29 de noviembre del 2012 para las consolas PlayStation 3, Xbox 360 y Microsoft Windows.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/FARCRY5.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">FARCRY 5</h5>
+                                            <p class="card-text">Far Cry 5 es un videojuego de acción-aventura en primera persona desarrollado por Ubisoft Montreal y publicado por Ubisoft para PlayStation 4, Xbox One, Stadia y Microsoft Windows. Es la undécima entrega de la serie Far Cry. </p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/FARCRY6.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">FARCRY 6</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>CALL OF DUTY</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/modern-warfare-3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">MODERN WARFARE 3</h5>
+                                            <p class="card-text">Call of Duty: Modern Warfare III es un FPS desarrollado por Infinity Ward y Sledgehammer Games y publicado por Activision, lanzándose para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S y Microsoft Windows.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/warzone.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">WARZONE</h5>
+                                            <p class="card-text">Call of Duty: Warzone fue un videojuego de disparos en primera persona, perteneciente al género Battle royale gratuito, lanzado el 10 de marzo de 2020 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S y Microsoft Windows.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/black ops colletion.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">BLACK OPS</h5>
+                                            <p class="card-text">Call of Duty: Black Ops es un videojuego de disparos en primera persona de estilo bélico desarrollado por Treyarch y distribuido por Activision. Fue lanzado en todo el mundo en noviembre de 2010 para Microsoft Windows, PlayStation 3, Wii y Xbox 360, con una versión separada para Nintendo DS desarrollada por n-Space.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>HORIZON ZERO DAWN COLLECTION</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/HORIZON ZERO DAWN2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">HORIZON ZERO DAWN</h5>
+                                            <p class="card-text">Horizon Zero Dawn es un videojuego de acción, aventura y de mundo abierto desarrollado por Guerrilla Games y distribuido por Sony Interactive Entertainment para PlayStation 4 y Microsoft Windows.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/Horizon-Forbidden-West.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">FORBIDDEN WEST</h5>
+                                            <p class="card-text">Horizon Forbidden West es un videojuego de rol de acción, aventura y mundo abierto desarrollado por Guerrilla Games y distribuido por Sony Interactive Entertainment, el juego está disponible para PlayStation 4.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/HORIZON ZERO DAWN REMASTERED.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">REMASTER</h5>
+                                            <p class="card-text">Horizon Zero Dawn es un galardonado juego de rol y acción, y la Remastered Edition hace que el popular mundo salvaje de Aloy cobre vida con una fidelidad mayor si cabe, gracias al potencial de la consola PlayStation®5.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>UNCHARTED COLLECTION</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/Uncharted-2.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">UNCHARTED 2</h5>
+                                            <p class="card-text">Uncharted 2: El reino de los ladrones es un videojuego de acción y aventura de disparos en tercera persona desarrollado por Naughty Dog y publicado por Sony Computer Entertainment. Es el segundo juego de la serie Uncharted y se lanzó en octubre de 2009 para PlayStation 3.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/uncharted-3.jfif" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">UNCHARTED 3</h5>
+                                            <p class="card-text">La traición de Drake es un videojuego de acción y aventura de disparos en tercera persona desarrollado por Naughty Dog y publicado por Sony Computer Entertainment. Es la tercera entrada principal de la serie Uncharted y se lanzó en noviembre de 2011 para PlayStation 3.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/uncharted_4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">UNCHARTED 4</h5>
+                                            <p class="card-text">El desenlace del ladrón es un videojuego de acción y aventura de disparos en tercera persona desarrollado por Naughty Dog y publicado por Sony Computer Entertainment. Es la cuarta entrada principal de la serie Uncharted.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>GOD OF WAR COLLECTION</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/god of war 3.avif" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GOD OF WAR 3</h5>
+                                            <p class="card-text">God of War III es un videojuego de acción y aventura hack and slash desarrollado por Santa Monica Studio y publicado por Sony Computer Entertainment.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/GOD OF WAR 4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GOD OF WAR 4</h5>
+                                            <p class="card-text">God of War es un videojuego de acción-aventura hack and slash en tercera persona desarrollado por SCE Santa Monica Studio y publicado por Sony Interactive Entertainment.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/GOD OF WAR RAGNAROK.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GOD OF WAR RAGNAROK</h5>
+                                            <p class="card-text">God of War Ragnarök es un videojuego de acción y aventura hack and slash en tercera persona desarrollado por Santa Monica Studio y publicado por Sony Interactive Entertainment.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>TOMB RAIDER COLLECTION</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/tomb_raider-1.jfif" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">TOMB RAIDER</h5>
+                                            <p class="card-text">Tomb Raider, conocido como Lara Croft:de 2001 a 2008, es una franquicia de medios que se originó con una serie de videojuegos de acción y aventuras creada por el desarrollador británico de videojuegos Core Design.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/shadow of the tomb raider.jfif" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">SHADOW OF THE TOMB RAIDER</h5>
+                                            <p class="card-text">Shadow of the Tomb Raider es un videojuego de acción y aventura desarrollado por Eidos Montréal y distribuido por Square Enix, para las plataformas PlayStation 4, Xbox One y Microsoft Windows.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/RISE OF THE TOMB RAIDER.jfif" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">RISE OF THE TOMB RAIDER</h5>
+                                            <p class="card-text">Rise of The Tomb Raider es un videojuego de acción-aventura desarrollado por Crystal Dynamics. Es el undécimo videojuego de la serie Tomb Raider.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <h2>BATTLEFRONT COLLECTION</h2>
+                        <div class="card-group">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/BATTLEFRONT 1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">BATTLEFRONT 1 COLLECTION</h5>
+                                            <p class="card-text">Star Wars: Battlefront es un videojuego donde se narran de forma peculiar las películas de Star Wars. En el juego es posible luchar siendo Droides, Clones, Rebeldes o Imperiales. El juego tiene una versión multijugador.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/BATTLEFRONT 2.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">BATTLEFRONT 2</h5>
+                                            <p class="card-text">Star Wars Battlefront II es un videojuego de disparos en tercera y primera persona, el cual tiene lugar en el universo de Star Wars. Es la secuela del videojuego Star Wars: Battlefront del año 2015.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-md-3 mb-sm-3">
+                                    <div class="card">
+                                        <img class="img-fluid" src="img/BATTLEFRONT 3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">BATTLEFRONT 3</h5>
+                                            <p class="card-text">Star Wars: Battlefront es un videojuego desarrollado por EA Digital Illusions CE y publicado por Electronic Arts. Está basado en la franquicia de Star Wars, siendo el sexto título de la saga Star Wars: Battlefront.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pantalla grande -->
+            <div class="col-lg-9 col-md-12 d-none d-sm-none d-md-none d-lg-block">
+                <div class="row ">
+                    <div class="col-12 mb-5 ">
+                        <h2>HALO MASTER CHIEF COLLECTION</h2>
+                        <div class="card-group ">
+                            <div class="card">
+                                <img class="img-fluid" src="img/halo-reach_1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">HALO REACH</h5>
+                                    <p class="card-text">Halo Reach es un videojuego de disparos en primera persona desarrollado por Bungie y publicado por Microsoft Game Studios para la consola Xbox 360 y posteriormente retrocompatible con Xbox One. Es el sexto videojuego de la saga Halo.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="img-fluid" src="img/Halo-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">HALO 2</h5>
+                                    <p class="card-text">Halo 2 es un videojuego de disparos en primera persona desarrollado por Bungie Studios y lanzado para la consola Xbox en 2004. Es la segunda entrega en la franquicia de Halo y su trama continúa los sucesos relatados en Halo: Combat Evolved</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="img-fluid" src="img/halo-4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">HALO 4</h5>
+                                    <p class="card-text">Halo 4 es un videojuego de disparos en primera persona desarrollado por la filial 343 Industries y distribuido por Microsoft Studios para la videoconsola Xbox 360. Halo 4 es el primero de "la trilogía del reclamador", y el séptimo lanzamiento de la franquicia Halo.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
                         <h2>FARCRY COLLECTION</h2>
                         <div class="card-group">
                             <div class="card">
-                              <img class="img-fluid" src="img/FARCRY3.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">FARCRY 3</h5>
-                                <p class="card-text">Far Cry 3 es un videojuego de disparos en primera persona y acción, creado por Ubisoft Montreal y publicado por Ubisoft. Fue lanzado oficialmente el 29 de noviembre del 2012 para las consolas PlayStation 3, Xbox 360 y Microsoft Windows.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                              </div>
+                                <img class="img-fluid" src="img/FARCRY3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FARCRY 3</h5>
+                                    <p class="card-text">Far Cry 3 es un videojuego de disparos en primera persona y acción, creado por Ubisoft Montreal y publicado por Ubisoft. Fue lanzado oficialmente el 29 de noviembre del 2012 para las consolas PlayStation 3, Xbox 360 y Microsoft Windows.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                             <div class="card">
-                              <img class="img-fluid" src="img/FARCRY5.jpeg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">FARCRY 5</h5>
-                                <p class="card-text">Far Cry 5 es un videojuego de acción-aventura en primera persona desarrollado por Ubisoft Montreal y publicado por Ubisoft para PlayStation 4, Xbox One, Stadia y Microsoft Windows. Es la undécima entrega de la serie Far Cry. Su lanzamiento se produjo el 27 de marzo de 2018.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                              </div>
+                                <img class="img-fluid" src="img/FARCRY5.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FARCRY 5</h5>
+                                    <p class="card-text">Far Cry 5 es un videojuego de acción-aventura en primera persona desarrollado por Ubisoft Montreal y publicado por Ubisoft para PlayStation 4, Xbox One, Stadia y Microsoft Windows. Es la undécima entrega de la serie Far Cry. </p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                             <div class="card">
-                              <img class="img-fluid" src="img/FARCRY6.jfif" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">FARCRY 6</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                              </div>
+                                <img class="img-fluid" src="img/FARCRY6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FARCRY 6</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 mb-5">
                         <h2>CALL OF DUTY</h2>
                         <div class="card-group">
                             <div class="card">
-                                <img class="img-fluid" src="img/modern-warfare-3.avif" class="card-img-top" alt="...">
+                                <img class="img-fluid" src="img/modern-warfare-3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">MODERN WARFARE 3</h5>
-                                    <p class="card-text">Call of Duty: Modern Warfare III es un FPS desarrollado por Infinity Ward y Sledgehammer Games y publicado por Activision, lanzándose para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S y Microsoft Windows. Es la secuela Call of Duty: Modern Warfare 2 y es la vigésima entrega de la serie Call of Duty.</p>
+                                    <p class="card-text">Call of Duty: Modern Warfare III es un FPS desarrollado por Infinity Ward y Sledgehammer Games y publicado por Activision, lanzándose para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S y Microsoft Windows.</p>
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
@@ -190,6 +558,7 @@
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
+                            
                             <div class="card">
                                 <img class="img-fluid" src="img/black ops colletion.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -200,11 +569,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 mb-5">
                         <h2>HORIZON ZERO DAWN COLLECTION</h2>
                         <div class="card-group">
                             <div class="card">
-                                <img class="img-fluid" src="img/HORIZON ZERO DAWN.webp" class="card-img-top" alt="...">
+                                <img class="img-fluid" src="img/HORIZON ZERO DAWN2.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">HORIZON ZERO DAWN</h5>
                                     <p class="card-text">Horizon Zero Dawn es un videojuego de acción, aventura y de mundo abierto desarrollado por Guerrilla Games y distribuido por Sony Interactive Entertainment para PlayStation 4 y Microsoft Windows.</p>
@@ -215,12 +584,12 @@
                                 <img class="img-fluid" src="img/Horizon-Forbidden-West.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">FORBIDDEN WEST</h5>
-                                    <p class="card-text">Horizon Forbidden West es un videojuego de rol de acción, aventura y mundo abierto desarrollado por Guerrilla Games y distribuido por Sony Interactive Entertainment, el juego está disponible para PlayStation 4, PlayStation 5 y a partir del 21 de marzo del 2024 para Microsoft Windows.</p>
+                                    <p class="card-text">Horizon Forbidden West es un videojuego de rol de acción, aventura y mundo abierto desarrollado por Guerrilla Games y distribuido por Sony Interactive Entertainment, el juego está disponible para PlayStation 4.</p>
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                             <div class="card">
-                                <img class="img-fluid" src="img/HORIZON ZERO DAWN REMASTERED.webp" class="card-img-top" alt="...">
+                                <img class="img-fluid" src="img/HORIZON ZERO DAWN REMASTERED.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">REMASTER</h5>
                                     <p class="card-text">Horizon Zero Dawn es un galardonado juego de rol y acción, y la Remastered Edition hace que el popular mundo salvaje de Aloy cobre vida con una fidelidad mayor si cabe, gracias al potencial de la consola PlayStation®5.</p>
@@ -229,11 +598,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 mb-5">
                         <h2>UNCHARTED COLLECTION</h2>
                         <div class="card-group">
                             <div class="card">
-                                <img class="img-fluid" src="img/Uncharted-2.avif" class="card-img-top" alt="...">
+                                <img class="img-fluid" src="img/Uncharted-2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">UNCHARTED 2</h5>
                                     <p class="card-text">Uncharted 2: El reino de los ladrones es un videojuego de acción y aventura de disparos en tercera persona desarrollado por Naughty Dog y publicado por Sony Computer Entertainment. Es el segundo juego de la serie Uncharted y se lanzó en octubre de 2009 para PlayStation 3.</p>
@@ -258,7 +627,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 mb-5">
                         <h2>GOD OF WAR COLLECTION</h2>
                         <div class="card-group">
                             <div class="card">
@@ -269,13 +638,13 @@
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
-                            <div class="card">
-                                <img class="img-fluid" src="img/GOD OF WAR 4.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">GOD OF WAR 4</h5>
-                                    <p class="card-text">God of War es un videojuego de acción-aventura hack and slash en tercera persona desarrollado por SCE Santa Monica Studio y publicado por Sony Interactive Entertainment. El juego se lanzó para PlayStation 4 en abril de 2018, con un puerto para Windows lanzado en enero de 2022.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
+                                <div class="card">
+                                    <img class="img-fluid" src="img/GOD OF WAR 4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GOD OF WAR 4</h5>
+                                        <p class="card-text">God of War es un videojuego de acción-aventura hack and slash en tercera persona desarrollado por SCE Santa Monica Studio y publicado por Sony Interactive Entertainment.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
                             </div>
                             <div class="card">
                                 <img class="img-fluid" src="img/GOD OF WAR RAGNAROK.jpg" class="card-img-top" alt="...">
@@ -287,14 +656,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 mb-5">
                         <h2>TOMB RAIDER COLLECTION</h2>
                         <div class="card-group">
                             <div class="card">
                                 <img class="img-fluid" src="img/tomb_raider-1.jfif" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">TOMB RAIDER</h5>
-                                    <p class="card-text">Tomb Raider, conocido como Lara Croft: Tomb Raider de 2001 a 2008, es una franquicia de medios que se originó con una serie de videojuegos de acción y aventuras creada por el desarrollador británico de videojuegos Core Design.</p>
+                                    <p class="card-text">Tomb Raider, conocido como Lara Croft:de 2001 a 2008, es una franquicia de medios que se originó con una serie de videojuegos de acción y aventuras creada por el desarrollador británico de videojuegos Core Design.</p>
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
@@ -316,11 +685,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center mb-5">
+                    <div class="col-12 mb-5">
                         <h2>BATTLEFRONT COLLECTION</h2>
                         <div class="card-group">
                             <div class="card">
-                                <img class="img-fluid" src="img/BATTLEFRONT 1.avif" class="card-img-top" alt="...">
+                                <img class="img-fluid" src="img/BATTLEFRONT 1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">BATTLEFRONT 1 COLLECTION</h5>
                                     <p class="card-text">Star Wars: Battlefront es un videojuego donde se narran de forma peculiar las películas de Star Wars. En el juego es posible luchar siendo Droides, Clones, Rebeldes o Imperiales. El juego tiene una versión multijugador.</p>
@@ -331,7 +700,7 @@
                                 <img class="img-fluid" src="img/BATTLEFRONT 2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">BATTLEFRONT 2</h5>
-                                    <p class="card-text">Star Wars Battlefront II es un videojuego de disparos en tercera y primera persona, el cual tiene lugar en el universo de Star Wars. Es la secuela del videojuego Star Wars: Battlefront del año 2015. Fue desarrollado por EA DICE, en colaboración con Criterion Games y Motive Studios y publicado por Electronic Arts.</p>
+                                    <p class="card-text">Star Wars Battlefront II es un videojuego de disparos en tercera y primera persona, el cual tiene lugar en el universo de Star Wars. Es la secuela del videojuego Star Wars: Battlefront del año 2015.</p>
                                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
